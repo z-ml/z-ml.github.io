@@ -11,9 +11,12 @@
   },
   "dependencies": {
     "mint-ui": "^2.2.7",
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2",
     "vue": "^2.3.3"
   },
   "devDependencies": {
+    "mint-ui": "^2.2.7",
     "autoprefixer": "^6.7.2",
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
