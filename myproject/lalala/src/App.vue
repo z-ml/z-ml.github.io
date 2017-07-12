@@ -1,27 +1,36 @@
 <template>
   <div id="app">
-    <hello></hello>
+    <router-view></router-view>
+    <mt-tabbar v-model="selected">
+      <mt-tab-item id="首页">
+        <router-link to="/index" tag="div">首页</router-link>
+      </mt-tab-item>
+      <mt-tab-item id="分类">
+        <router-link to="/classify" tag="div">分类</router-link>
+      </mt-tab-item>
+      <mt-tab-item id="购物车">
+        <router-link to="/shopping-cart" tag="div">购物车</router-link>
+      </mt-tab-item>
+      <mt-tab-item id="我的">
+        <router-link to="/mine" tag="div">我的</router-link>
+      </mt-tab-item>
+    </mt-tabbar>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
 
 export default {
+    data(){
+        return{
+            selected:false
+        }
+    },
   name: 'app',
-  components: {
-    Hello
-  }
+  components: {}
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
