@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    hello,world
+    <img src="../assets/gaoyang.jpg" width="400">
+    <h3 style="color: red;">征婚:40以上请联系我~</h3>
   </div>
 </template>
 
