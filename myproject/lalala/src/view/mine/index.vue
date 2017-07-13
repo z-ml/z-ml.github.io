@@ -1,6 +1,6 @@
 <template>
     <div>
-        mine
+        minee
     </div>
 </template>
 <style>

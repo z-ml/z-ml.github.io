@@ -14,8 +14,13 @@
             }
         },
         mounted(){
+            this.init();
         },
-        methods: {},
+        methods: {
+            init(){
+
+            }
+        },
         computed: {},
         watch: {},
         props: {},

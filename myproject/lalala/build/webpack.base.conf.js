@@ -42,8 +42,8 @@ module.exports = {
           loader: 'style-loader!css-loader',
           include: [
               /src/,
-              '/node_modules/mint-ui/lib/'   //增加此项
-          ],
+              '/node_modules/mint-ui/lib/',  //增加此项
+          ]
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,

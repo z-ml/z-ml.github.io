@@ -23,7 +23,7 @@
 export default {
     data(){
         return{
-            selected:false
+            selected:'首页'
         }
     },
   name: 'app',
