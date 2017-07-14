@@ -10,12 +10,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "mint-ui": "^2.2.7",
     "css-loader": "^0.28.4",
+    "mint-ui": "^2.2.7",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.8",
-    "vue-loader": "^12.1.0",
-    "vue": "^2.3.3"
+    "vue": "^2.3.3",
+    "vue-loader": "^12.1.0"
   },
   "devDependencies": {
     "mint-ui": "^2.2.7",
