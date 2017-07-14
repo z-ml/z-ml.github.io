@@ -15,10 +15,13 @@
         },
         mounted(){
             this.init();
+            this.$nextTick(()=>{
+                this.$indicator.close();
+            });
         },
         methods: {
             init(){
-
+                this.$indicator.open('加载中...');
             }
         },
         computed: {},

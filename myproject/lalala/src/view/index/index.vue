@@ -5,7 +5,7 @@
             <top-nav @select="nav_selected"></top-nav>
         </div>
         <div v-if="isLoading">
-            <mt-progress :value="progress" :bar-height="5" class="main-content" style="height: 5px"></mt-progress>
+            <mt-progress :value="progress" :bar-height="5" class="main-content" style="height: 0.05rem"></mt-progress>
         </div>
         <div v-else>
             <indexContent :nav-selected="navSelected" class="main-content"></indexContent>

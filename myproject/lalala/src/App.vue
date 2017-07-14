@@ -26,6 +26,9 @@ export default {
             selected:'首页'
         }
     },
+    methods:{
+
+    },
   name: 'app',
   components: {}
 }
