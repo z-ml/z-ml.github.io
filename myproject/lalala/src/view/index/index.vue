@@ -29,7 +29,7 @@
         left: 0;
         top: 0;
         width: 100%;
-        margin-top: 1.8rem;
+        margin-top: 1.73rem;
         box-sizing: border-box;
         overflow-x: hidden;
         overflow-y: auto;
@@ -37,7 +37,7 @@
     .top-header {
         position: fixed;
         top: 0;
-        height: 1.8rem;
+        height: 1.73rem;
         z-index: 3;
     }
 </style>

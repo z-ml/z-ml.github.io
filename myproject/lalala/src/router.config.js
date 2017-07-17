@@ -8,8 +8,10 @@ const routes = [
     { path: '/index', component: require('./view/index/index.vue') },
     { path: '/classify', component: require('./view/classify/index.vue') },
     { path: '/shopping-cart', component: require('./view/shopping-cart/index.vue') },
-    { path: '/mine', component: require('./view/mine/index.vue') }
+    { path: '/mine', component: require('./view/mine/index.vue') },
+    { path: '/', redirect: '/index'}
 ];
 export default new VueRouter({
-    routes
+    routes,
+    transitionOnLoad:true
 })
