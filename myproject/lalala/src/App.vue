@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <mt-tabbar v-model="selected" class="footer" fixed>
+    <mt-tabbar v-model="selected" class="footer" fixed ref="foot_nav">
       <mt-tab-item id="/index" :class="{on : $route.path === '/index'}">
         <div class="ispr ih"></div>
         <router-link to="/index" tag="div">首页</router-link>
