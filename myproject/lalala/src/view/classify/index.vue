@@ -679,7 +679,7 @@
                             <img src="" alt="">
                         </div>
                         <div class="name">
-                            路由器3G
+                            小米之家
                         </div>
                     </div>
                     <div class="product">
@@ -687,7 +687,7 @@
                             <img src="" alt="">
                         </div>
                         <div class="name">
-                            路由器3
+                            零售网点
                         </div>
                     </div>
                     <div class="product">
@@ -695,15 +695,7 @@
                             <img src="" alt="">
                         </div>
                         <div class="name">
-                            路由器3C
-                        </div>
-                    </div>
-                    <div class="product">
-                        <div class="img">
-                            <img src="" alt="">
-                        </div>
-                        <div class="name">
-                            路由器HD
+                            服务网点
                         </div>
                     </div>
                 </div>

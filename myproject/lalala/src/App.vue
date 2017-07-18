@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <mt-tabbar v-model="selected" class="footer" fixed ref="foot_nav">
+    <mt-tabbar v-model="selected" class="footer" fixed>
       <mt-tab-item id="/index" :class="{on : $route.path === '/index'}">
         <div class="ispr ih"></div>
         <router-link to="/index" tag="div">首页</router-link>
@@ -22,6 +22,16 @@
   </div>
 </template>
 <style>
+  .footer{
+    padding: 7px 0;
+  }
+  .footer>.mint-tab-item{
+    padding:0
+  }
+  .footer>.is-selected{
+    background-color: #ffffff !important;
+    color: #FF5722 !important;
+  }
   .ispr{
     width: .4rem;
     height: .4rem;

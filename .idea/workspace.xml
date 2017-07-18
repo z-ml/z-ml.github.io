@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02041f2c-17c5-4dcb-88c8-95e6f7a04471" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myproject/lalala/src/App.vue" afterPath="$PROJECT_DIR$/myproject/lalala/src/App.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myproject/lalala/src/view/classify/index.vue" afterPath="$PROJECT_DIR$/myproject/lalala/src/view/classify/index.vue" />
     </list>
@@ -20,8 +18,8 @@
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/lalala/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2409">
-              <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+            <state relative-caret-position="396">
+              <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -54,7 +52,7 @@
       <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/lalala/src/view/index/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2046">
+            <state relative-caret-position="2013">
               <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#mt-progress#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -66,8 +64,8 @@
       <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/lalala/src/view/classify/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-264">
-              <caret line="671" column="35" lean-forward="false" selection-start-line="671" selection-start-column="35" selection-end-line="671" selection-end-column="35" />
+            <state relative-caret-position="-792">
+              <caret line="697" column="32" lean-forward="false" selection-start-line="697" selection-start-column="32" selection-end-line="697" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -106,8 +104,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myproject/lalala/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="231">
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -141,6 +139,7 @@
       <find>product</find>
       <find>first</find>
       <find>category_title</find>
+      <find>foot_nav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,8 +169,8 @@
         <option value="$PROJECT_DIR$/myproject/test.html" />
         <option value="$PROJECT_DIR$/myproject/lalala/src/view/index/index.vue" />
         <option value="$PROJECT_DIR$/myproject/lalala/src/router.config.js" />
-        <option value="$PROJECT_DIR$/myproject/lalala/src/App.vue" />
         <option value="$PROJECT_DIR$/myproject/lalala/src/view/classify/index.vue" />
+        <option value="$PROJECT_DIR$/myproject/lalala/src/App.vue" />
         <option value="$PROJECT_DIR$/myproject/lalala/dist/index.html" />
       </list>
     </option>
@@ -480,12 +479,12 @@
       <workItem from="1499906658199" duration="18326000" />
       <workItem from="1499993606113" duration="17520000" />
       <workItem from="1500252586111" duration="18358000" />
-      <workItem from="1500339272527" duration="23776000" />
+      <workItem from="1500339272527" duration="24974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92402000" />
+    <option name="totallyTimeSpent" value="93600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
@@ -855,14 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/lalala/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2409">
-          <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -873,7 +864,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/lalala/src/view/index/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2046">
+        <state relative-caret-position="2013">
           <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#mt-progress#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -883,16 +874,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/lalala/src/view/classify/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="671" column="35" lean-forward="false" selection-start-line="671" selection-start-column="35" selection-end-line="671" selection-end-column="35" />
+        <state relative-caret-position="-792">
+          <caret line="697" column="32" lean-forward="false" selection-start-line="697" selection-start-column="32" selection-end-line="697" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/lalala/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/lalala/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="231">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
