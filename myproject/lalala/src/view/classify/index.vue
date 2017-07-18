@@ -853,8 +853,8 @@
                             this.$refs.list_navbar.children[0].children[j].className = '';
                             this.$refs.list_navbar.children[0].children[i].className = 'active';
                         }
-                        //判断第i个li距离顶部的距离-这个ul的高度如果大于0则滑动
-                        if(this.$refs.list_navbar.children[0].children[i].offsetTop - this.$refs.list_navbar.clientHeight > 0){
+                        //判断第i个li距离顶部的距离-这个ul的高度如果大于这个li本身的高度则滑动
+                        if(this.$refs.list_navbar.children[0].children[i].offsetTop - this.$refs.list_navbar.clientHeight > -this.$refs.list_navbar.children[0].children[i].clientHeight){
                             //滑动的距离等于第i个li距离顶部的距离 - 这个ul的高度 + 第i个li的高度
                             this.$refs.list_navbar.children[0].scrollTop = this.$refs.list_navbar.children[0].children[i].offsetTop - this.$refs.list_navbar.clientHeight + this.$refs.list_navbar.children[0].children[i].clientHeight;
                         } else {
