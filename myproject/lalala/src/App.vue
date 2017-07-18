@@ -26,7 +26,7 @@
     padding: 7px 0;
   }
   .footer{
-    background-color: #ffffff;
+    background-color: #ffffff !important;
   }
   .footer>.mint-tab-item{
     padding:0
