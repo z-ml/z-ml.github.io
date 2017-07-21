@@ -1,11 +1,6 @@
 <template>
     <div>
-        <mt-header title="商品分类">
-            <router-link to="/" slot="left">
-                <mt-button icon="back">返回</mt-button>
-            </router-link>
-            <mt-button icon="search" slot="right"></mt-button>
-        </mt-header>
+        <mi-header :title="title"></mi-header>
         <div class="list-navbar" ref="list_navbar">
             <ul>
                 <li @click="listNavbar($index)" v-for="(item, $index) in navbar" :key="item">{{item}}</li>
@@ -815,7 +810,8 @@
         data(){
             return {
                 scroll: '',
-                navbar:['新品','手机','电视','电脑','家电','路由','智能','电源','耳机','音响','礼品','生活','米粉卡','零售店']
+                navbar:['新品','手机','电视','电脑','家电','路由','智能','电源','耳机','音响','礼品','生活','米粉卡','零售店'],
+                title:'商品分类'
             }
         },
         mounted(){
@@ -872,6 +868,8 @@
         computed: {},
         watch: {},
         props: {},
-        components: {}
+        components: {
+            miHeader:require("../../compents/mi-header.vue")
+        }
     }
 </script>
