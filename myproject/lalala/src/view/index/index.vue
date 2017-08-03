@@ -35,6 +35,7 @@
         overflow-y: auto;
     }
     .top-header {
+        background-color: #ffffff;
         position: fixed;
         top: 0;
         height: 1.73rem;

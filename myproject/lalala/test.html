@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        height: 500px;
+        line-height: 500px;
+        border-bottom: 1px solid red;
+        text-align: center;
+    }
+    .list-nav{
+        border: 1px solid blue;
+        position: fixed;
+        background-color: white;
+        width: 100px;
+        left:0;
+        top:0;
+    }
+    .list-item{
+        height: 800px;
+        color: red;
+        border: 1px solid rebeccapurple;
+    }
+    .content{
+        margin-left: 100px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul class="list-nav">
+        <li>1</li>
+        <li>2</li>
+    </ul>
+    <div class="content">
+        <div class="list-item">
+            一
+        </div>
+        <div class="list-item">
+            二
+        </div>
+    </div>
+
+</body>
+<script src="./jquery-3.2.1.min.js"></script>
+<script>
+    $(window).scroll(function () {
+
+    });
+    $('.list-nav').on('click','li', function () {
+        let i = $(this).index();
+    })
+</script>
+</html>
+

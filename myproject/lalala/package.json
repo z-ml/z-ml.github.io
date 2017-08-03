@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "css-loader": "^0.28.4",
+    "echarts": "^3.6.2",
     "mint-ui": "^2.2.7",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.8",

@@ -1,21 +1,25 @@
 <template>
     <div>
-        minee
+        mine
     </div>
 </template>
 <style>
 
 </style>
 <script>
+
     export default {
         data(){
             return {
-                h1: 'aaaaa'
+
             }
         },
         mounted(){
+
         },
-        methods: {},
+        methods: {
+
+        },
         computed: {},
         watch: {},
         props: {},

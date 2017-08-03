@@ -18,10 +18,10 @@
                 <label for="women" class="new_radio">女</label>
             </mt-tab-container-item>
             <mt-tab-container-item id="content-3">
-                3
+                <e-charts></e-charts>
             </mt-tab-container-item>
             <mt-tab-container-item id="content-4">
-                4
+                <e-map></e-map>
             </mt-tab-container-item>
             <mt-tab-container-item id="content-5">
                 5
@@ -86,6 +86,9 @@
         props: {
             navSelected:''
         },
-        components: {},
+        components: {
+            eCharts:require('./e-charts.vue'),
+            eMap:require('./e-map.vue')
+        },
     }
 </script>
