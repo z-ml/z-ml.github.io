@@ -1,0 +1,32 @@
+{
+  "index.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "guide.html",
+      "main.html"
+    ]
+  },
+  "guide.html": {
+    "resources": [
+      "image/yuantiao.jpg",
+      "image/shuijiao.jpg",
+      "image/muwu.jpg",
+      "image/cbd.jpg",
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "main.html"
+    ]
+  },
+  "main.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ]
+  }
+}
